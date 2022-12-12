@@ -1,4 +1,6 @@
 #include <stdio.h>
+/* betty style doc for function main goes there */
+
 /**
  * main - Entry point
  *
@@ -6,15 +8,16 @@
  */
 
 int main(void)
+
 {
 	char c;
 
 	c = 'a';
-	while 
-		(c <= 'z')  {
+	while (c <= 'z')  {
 			putchar(c);
 			c++;
 		}
 	putchar('\n');
+
         return (0);
 }
