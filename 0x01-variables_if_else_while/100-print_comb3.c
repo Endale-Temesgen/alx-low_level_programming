@@ -8,9 +8,11 @@
 int main(void)
 {
 	int s = 0, e = 8, s1 = 1, e2 = 9;
+
 	while (s <= e)
 	{
 		s1 = s + 1;
+
                 while (s1 <= e2)
 		{
 			putchar(s + '0');
