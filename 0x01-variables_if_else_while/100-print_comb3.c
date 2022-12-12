@@ -6,6 +6,7 @@
  */
 
 int main(void)
+
 {
 	int s = 0, e = 8, s1 = 1, e2 = 9;
 
@@ -29,5 +30,6 @@ int main(void)
 		s++;
 	}
 	putchar('\n');
+
 	return (0);
 }
