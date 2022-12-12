@@ -26,10 +26,12 @@ int main(void)
 				putchar(' ');
 
 			}
+
 	               }
 		s++;
 	}
 	putchar('\n');
 
 	return (0);
+
 }
