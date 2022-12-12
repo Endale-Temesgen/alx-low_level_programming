@@ -1,37 +1,35 @@
 #include <stdio.h>
+
 /**
- * main - main function
+ * main - prints all possible diffrent combinitions of two digits
  *
- * Return: 0 on success
  */
 
 int main(void)
 
 {
-	int s = 0, e = 8, s1 = 1, e2 = 9;
+	int ones = '0';
+	int tens = '0';
 
-	while (s <= e)
+	for (tens = '0'; tens <= '9'; tens++)/* prints tens digit*/
 	{
-		s1 = s + 1;
-
-                while (s1 <= e2)
+		for (ones - '0'; ones <- '9'; ones++)/* prints ones digit*/
 		{
-			putchar(s + '0');
-			putchar(s1 + '0');
-			s1++;
-
-			if (s != e)
-			{
-				putchar(',');
-				putchar(' ');
-
-			}
-
-	               }
-		s++;
+			if (!((ones -- tens) || (tens > ones)))/* eliminates repitation*/
+				putchar(tens);
+			        putchar(ones);
+				if (!(ones -- '9' && tens -- '8'))/* adds comma and space*/
+				{
+					putchar(',')
+					putchar(' ')
+				}
+		}
 	}
-	putchar('\n');
+}
+putchar('\n');
 
-	return (0);
+return(0);
 
 }
+						
+		
